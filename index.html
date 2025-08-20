@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV – Jonathan RABEMANANORO – Head of AI Solutions and Customer Engagement</title>
+  <style>
+    :root{
+      --accent:#0F766E; /* teal-700 */
+      --accent-ink:#0b5d57;
+      --ink:#0f172a; /* slate-900 */
+      --muted:#475569; /* slate-600 */
+      --bg:#ffffff;
+      --chip:#e7f5f3;
+      --border:#e5e7eb; /* gray-200 */
+    }
+    html,body{height:100%;}
+    body{
+      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--ink); background:var(--bg);
+      -webkit-font-smoothing:antialiased; line-height:1.45;
+    }
+    .page{max-width:960px; margin:24px auto; padding:24px;}
+    .card{background:#fff; border:1px solid var(--border); border-radius:18px; box-shadow:0 4px 16px rgba(2,6,23,.06); overflow:hidden;}
+    header{
+      display:grid; grid-template-columns:1.1fr .9fr; gap:24px; align-items:center; padding:28px 28px 12px 28px; border-bottom:1px solid var(--border);
+      background:linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
+    }
+    header .title h1{font-size:28px; margin:.1rem 0 .25rem 0; letter-spacing:.2px;}
+    header .title .role{font-weight:700; color:var(--accent-ink);}
+    header .meta{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px;}
+    .pill{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; padding:6px 10px; border-radius:999px; background:var(--chip); color:var(--accent-ink); border:1px solid #cfe8e5;}
+    .ref{font-weight:700; color:var(--muted);}
+
+    .grid{display:grid; grid-template-columns: 330px 1fr; gap:24px; padding:20px 24px 28px 24px;}
+
+    h2{font-size:14px; text-transform:uppercase; letter-spacing:.12em; color:var(--accent-ink); margin:18px 0 10px 0;}
+    h3{font-size:16px; margin:.2rem 0;}
+    h4{font-size:14px; color:var(--ink); margin:.15rem 0;}
+    .muted{color:var(--muted);}    
+    .sep{height:1px; background:var(--border); margin:10px 0 16px;}
+
+    .sidebar{border-right:1px dashed var(--border); padding-right:12px;}
+    .contact a{color:var(--accent-ink); text-decoration:none;}
+    .contact a:hover{text-decoration:underline;}
+    .list{margin:0; padding-left:18px;}
+    .list li{margin:6px 0;}
+
+    .exp .item{margin-bottom:18px;}
+    .exp .head{display:flex; flex-wrap:wrap; justify-content:space-between; gap:6px;}
+    .exp .place{font-weight:700;}
+    .exp .when, .exp .loc{color:var(--muted); font-size:13px;}
+    .bullets{margin:6px 0 0 0; padding-left:18px;}
+    .bullets li{margin:4px 0;}
+
+    .chips{display:flex; flex-wrap:wrap; gap:8px;}
+
+    .tags span{background:#f4f6f8; border:1px solid var(--border); padding:4px 8px; border-radius:999px; font-size:12px;}
+
+    footer{padding:10px 24px 24px; color:var(--muted); font-size:12px;}
+
+    /* Print styles */
+    @media print{
+      body{background:#fff;}
+      .page{margin:0; padding:0;}
+      .card{box-shadow:none; border:none;}
+      header{padding:12px 16px 8px 16px;}
+      .grid{grid-template-columns: 34% 1fr; gap:14px; padding:10px 16px 10px 16px;}
+      .sidebar{border-right:none;}
+      .sep{margin:6px 0 10px;}
+      a{color:inherit; text-decoration:none;}
+      @page{size:A4; margin:12mm;}
+    }
+
+    /* Responsive */
+    @media (max-width:860px){
+      header{grid-template-columns:1fr; gap:6px;}
+      .grid{grid-template-columns:1fr;}
+      .sidebar{border-right:none; padding-right:0;}
+    }
+
+    .pdf-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background: #1a73e8;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+    }
+    
+    .pdf-button:hover {
+            background: #1558b0;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <header>
+        <div class="title">
+          <h1>Jonathan RABEMANANORO</h1>
+          <div class="role">HEAD OF AI SOLUTIONS AND CUSTOMER ENGAGEMENT</div>
+          <div class="meta">
+            <span class="pill">AI & Digital Transformation Executive</span>
+            <span class="pill">Strategic Technology Leadership</span>
+            <span class="pill">Innovation Management</span>
+            <span class="pill">10+ ans d’expérience | 8 ans en IA & Innovation</span>
+            <span class="pill ref">REF : #JONATHAN/THD</span>
+          </div>
+        </div>
+        <div class="contact">
+          <h2>Coordonnées</h2>
+          <div>Ifarihy, Ankarabato, Antananarivo, Madagascar</div>
+          <div>+261 32 67 55 450</div>
+          <div><a href="mailto:jonathanrabemananorogmail.com">jonathanrabemananoro@gmail.com</a></div>
+          <div><a href="https://www.linkedin.com/in/jonathan-rabemananor" target="_blank" rel="noopener">linkedin.com/in/jonathan-rabemananor</a></div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <section>
+            <h2>Profil exécutif</h2>
+            <p>Leader visionnaire et stratège en intelligence artificielle avec plus de 10 ans d'expérience, dont 8 ans spécialisés en innovation IT et transformation digitale. Expertise en pilotage de centres de profit, gestion de portefeuilles projets complexes et développement de solutions IA sur mesure pour clients internationaux. Certifié en IA générative (Microsoft, LinkedIn) et cloud computing, avec maîtrise de bout en bout du cycle de vie des projets.</p>
+          </section>
+
+          <section>
+            <h2>Compétences techniques</h2>
+            <h4>Intelligence Artificielle & Data</h4>
+            <ul class="list">
+              <li>Stratégie & innovation IA, transformation digitale</li>
+              <li>IA générative, Machine Learning, Prompt Engineering</li>
+              <li>BigQuery, Looker Studio</li>
+              <li>Data analysis avancée, BI & dataviz</li>
+            </ul>
+            <h4>Développement & Technologies</h4>
+            <ul class="list">
+              <li>Langages : Python, JavaScript, NodeJS, SQL avancé, HTML/CSS</li>
+              <li>Bases : MySQL, PostgreSQL, BigQuery, Supabase</li>
+              <li>Fullstack, Mobile, Microservices, APIs REST</li>
+              <li>Cloud & déploiement : GCP, Docker</li>
+            </ul>
+            <h4>Automatisation & Outils</h4>
+            <ul class="list">
+              <li>Automatisation : n8n, Selenium, Cypress</li>
+              <li>QA automation & robots de test d'interface</li>
+              <li>CI/CD, versioning : GitHub/GitLab</li>
+              <li>Architectures distribuées</li>
+            </ul>
+            <h4>Gestion de projet & Business</h4>
+            <ul class="list">
+              <li>Développement commercial & stratégie</li>
+              <li>Leadership transverse, équipes pluridisciplinaires</li>
+              <li>Analyse des besoins, conception de solutions</li>
+              <li>Gestion de portefeuille, Agile/Scrum</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Certifications (2025)</h2>
+            <h4>Microsoft</h4>
+            <ul class="list">
+              <li>L'intelligence artificielle pour les dirigeants</li>
+              <li>Compétences : IA générative, leadership organisationnel, IA responsable</li>
+            </ul>
+            <h4>LinkedIn</h4>
+            <ul class="list">
+              <li>Booster l'innovation avec l'IA</li>
+              <li>Principes éthiques de l'IA générative</li>
+              <li>Développer les compétences IA dans l'organisation</li>
+              <li>IA générative pour dirigeants</li>
+              <li>Déploiement de l'IA générative</li>
+              <li>IA pour leaders & managers</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Langues</h2>
+            <ul class="list">
+              <li>Français : langue maternelle</li>
+              <li>Anglais : courant (technique & business)</li>
+              <li>Malgache : langue maternelle</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Centres d'intérêt</h2>
+            <h4>Veille technologique</h4>
+            <ul class="list">
+              <li>IA générative, LLMs</li>
+              <li>Quantum & edge computing</li>
+              <li>Blockchain, cloud</li>
+            </ul>
+            <h4>Création artistique</h4>
+            <ul class="list">
+              <li>MAO (production, composition)</li>
+              <li>Ingénierie sonore (mix/master)</li>
+              <li>Photographie, direction artistique</li>
+            </ul>
+            <h4>Innovation & recherche</h4>
+            <ul class="list">
+              <li>Startups & entrepreneuriat</li>
+              <li>Conférences & networking</li>
+              <li>Mentorat tech</li>
+            </ul>
+          </section>
+        </aside>
+
+        <!-- MAIN -->
+        <main>
+          <section class="exp">
+            <h2>Parcours professionnel</h2>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Head of AI Solutions and Customer Engagement</h3>
+                  <div class="place">eTech Consulting</div>
+                </div>
+                <div class="when">Janvier 2025 – Présent</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Direction de la stratégie IA et développement commercial du portefeuille solutions</li>
+                <li>Management d'équipes pluridisciplinaires (tech & sales, 15+)</li>
+                <li>Développement de partenariats stratégiques avec acteurs internationaux</li>
+                <li>Pilotage de projets de transformation digitale à fort impact business</li>
+                <li>Veille technologique active sur innovations IA émergentes</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Business Analyst Senior IA & Chargé du Développement Stratégique IA</h3>
+                  <div class="place">eTech Consulting</div>
+                </div>
+                <div class="when">Août 2023 – Janvier 2025</div>
+              </div>
+              <ul class="bullets">
+                <li>Coordination de projets innovants en IA pour clients internationaux de premier plan</li>
+                <li>Conception de solutions IA sur mesure pour automatisation de processus complexes</li>
+                <li>Gestion d'équipes techniques et suivi des livrables (délais, budgets)</li>
+                <li>Analyse des besoins clients et conception d'architectures IA</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Business Analyst Innovation Space Confirmé</h3>
+                  <div class="place">eTech Consulting</div>
+                </div>
+                <div class="when">Février 2023 – Juillet 2023</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Management de projets de transformation digitale dans le secteur Agritech</li>
+                <li>Intégration IA & IoT pour optimisation des rendements agricoles</li>
+                <li>Analyse des besoins et proposition de solutions techniques innovantes</li>
+                <li>Veille technologique sectorielle et concurrentielle</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Business Analyst IT</h3>
+                  <div class="place">eTech Consulting</div>
+                </div>
+                <div class="when">Novembre 2021 – Janvier 2023</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Conception et déploiement de projets IT d'automatisation en environnements complexes</li>
+                <li>Collaboration agile (Scrum/Kanban) avec équipes pluridisciplinaires</li>
+                <li>Participation au développement fullstack (Python, JavaScript, Node.js)</li>
+                <li>Assurance qualité et respect des standards techniques</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Analyste Évaluations & Développeur Mobile</h3>
+                  <div class="place">ONN Madagascar</div>
+                </div>
+                <div class="when">Mai 2021 – Août 2021</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Conception et développement d'une application mobile de gestion de la malnutrition</li>
+                <li>Collaboration avec la Primature malgache et ministères concernés</li>
+                <li>Développement de fonctionnalités santé publique & gestion de données</li>
+                <li>Interface parties prenantes gouvernementales & analyse des besoins métier</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Business Analyst & Développeur CMS</h3>
+                  <div class="place">Otwoo</div>
+                </div>
+                <div class="when">Janvier 2017 – Décembre 2020</div>
+              </div>
+              <ul class="bullets">
+                <li>Analyse des besoins clients & spécifications techniques</li>
+                <li>Développement et mise en œuvre de solutions CMS sur mesure</li>
+                <li>Design d'interfaces intuitives & fonctionnalités personnalisées</li>
+                <li>Gestion de projet complète, de la conception à la livraison</li>
+              </ul>
+            </div>
+
+            <h3 class="muted" style="margin-top:18px;">Autres expériences</h3>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h4>Photographe Professionnel Indépendant</h4>
+                </div>
+                <div class="when">2018 – Octobre 2022</div>
+              </div>
+              <ul class="bullets">
+                <li>Photographie de reportage & portraits professionnels</li>
+                <li>Gestion de projets pour entreprises & événements</li>
+                <li>Développement d'un portefeuille B2B & relation client</li>
+                <li>Direction artistique & post-production</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h4>Responsable des Prospects – TIKODO</h4>
+                </div>
+                <div class="when">Janvier 2016 – Mars 2016</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Prospection et développement de portefeuille clients</li>
+                <li>Négociation commerciale & cycle de vente complet</li>
+                <li>Relations grandes surfaces & contrats publicitaires</li>
+                <li>Analyse de marché & identification d'opportunités</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h4>Présentateur Radio – No Comment Event & Alternative Marketing</h4>
+                </div>
+                <div class="when">2014 – 2015</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Animation d'émissions « La Matinale » & « Cahier de Nuit »</li>
+                <li>Gestion éditoriale & programmation musicale</li>
+                <li>Interviews & débats en direct • Régie audio</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h4>Consultant Marketing – PNUD</h4>
+                </div>
+                <div class="when">Septembre 2012 – Décembre 2012</div>
+              </div>
+              <ul class="bullets">
+                <li>Étude du pôle socio-économique (projet PICOM)</li>
+                <li>Collaboration avec le Ministère des Postes & Télécommunications</li>
+                <li>Analyses & recommandations stratégiques</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h4>Assistant Production – Group Media Madagascar S.A. (GMM)</h4>
+                </div>
+                <div class="when">Juin 2012 – Août 2012</div>
+              </div>
+              <div class="loc muted">Antananarivo, Madagascar</div>
+              <ul class="bullets">
+                <li>Appui au Strategy Media Manager & veille média clients</li>
+                <li>Étude de notoriété & valorisation produits via médias</li>
+                <li>Support production de contenu & relations presse</li>
+              </ul>
+            </div>
+
+          </section>
+
+          <section>
+            <h2>Réalisations clés</h2>
+            <ul class="bullets">
+              <li>Déploiement réussi de <strong>15+ solutions IT</strong> pour des clients internationaux</li>
+              <li>Transformation digitale de <strong>plusieurs secteurs</strong> (industrie, agritech, état, finance)</li>
+              <li>Management d'équipes de <strong>20+ personnes</strong> & partenariats internationaux</li>
+              <li>Solutions IA innovantes <strong>primées par les clients</strong> & gains d'efficacité mesurables</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Formations académiques</h2>
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>ESMIA</h3>
+                  <div class="muted">Licence en Informatique, Risques et Décisions</div>
+                </div>
+                <div class="when">2018 – 2021</div>
+              </div>
+              <ul class="bullets">
+                <li>Architecture logicielle, gestion de projet IT, analyse de risques</li>
+                <li>Développement fullstack, bases de données, sécurité</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>ISCAM Business School</h3>
+                  <div class="muted">Diplôme en Marketing Communication</div>
+                </div>
+                <div class="when">2011 – 2012</div>
+              </div>
+              <ul class="bullets">
+                <li>Stratégie marketing, communication d'entreprise, études de marché</li>
+                <li>Management commercial, négociation, relations clients</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="head">
+                <div>
+                  <h3>Lycée Technique Industriel</h3>
+                  <div class="muted">Génie Électronique – Filière technique industrielle</div>
+                </div>
+                <div class="when">Diplôme 2010</div>
+              </div>
+              <ul class="bullets">
+                <li>Électronique digitale, automatismes industriels, systèmes embarqués</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2>Formations complémentaires</h2>
+            <h4>Google</h4>
+            <ul class="bullets">
+              <li>IA Générative (Prompt Engineering, LLMs, Diffusion Models)</li>
+              <li>Architecture GCP (BigQuery, AI Platform, Cloud Functions)</li>
+            </ul>
+            <h4>Spécialisations sectorielles</h4>
+            <ul class="bullets">
+              <li>Core Banking Systems (architecture, payment processing, FinTech)</li>
+              <li>Soft Skills for Tech Leaders (leadership stratégique, négociation, management interculturel)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Références</h2>
+            <p>Disponibles sur demande – Directeurs techniques, clients enterprise, partenaires internationaux.</p>
+          </section>
+        </main>
+      </div>
+
+      <footer>
+        Profil constamment actualisé – Ouvert aux challenges stratégiques en AI Leadership & Transformation Digitale à l'international.
+      </footer>
+    </div>
+  </div>
+  <!--<button class="pdf-button" onclick="window.print()">Télécharger en PDF</button>-->
+</body>
+</html>
