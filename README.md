@@ -4,7 +4,7 @@
 CV web responsive présentant mon parcours professionnel en tant que Head of AI Solutions and Customer Engagement. Développé en HTML/CSS pur avec une approche minimaliste et moderne.
 
 ## 🚀 Live Demo
-Voir le CV en ligne : [lien-vers-votre-github-pages]
+Voir le CV en ligne : [lien-vers-votre-github-pages](https://jonathan-dady.github.io/cv_jonathan_rabemananoro/)
 
 ## 🛠️ Technologies
 - HTML5 sémantique
