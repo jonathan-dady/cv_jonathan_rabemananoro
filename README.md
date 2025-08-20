@@ -38,7 +38,7 @@ Le CV est optimisé pour l'impression :
 ## 🔧 Installation locale
 1. Cloner le repository
 ```bash
-git clone https://github.com/votre-username/CV.git
+git clone https://github.com/jonathan-dady/cv_jonathan_rabemananoro.git
 ```
 2. Ouvrir `index.html` dans un navigateur
 
@@ -47,4 +47,4 @@ Ce projet est sous licence MIT
 
 ## 📬 Contact
 - Email : jonathanrabemananoro@gmail.com
-- LinkedIn : [Jonathan RABEMANANORO](https://www.linkedin.com/in/jonathan-rabemananor)
+- LinkedIn : [Jonathan RABEMANANORO](https://www.linkedin.com/in/jonathan-rabemananoro/)
