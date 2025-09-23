@@ -1,0 +1,398 @@
+[
+{
+"domaine": "Interaction Client Augmentée",
+"uc_generique": "Chatbot de Demande et d'Assistance Client",
+"sous_uc": "Multi-plateformes",
+"contexte": "Besoin client",
+"description": "Offrez à vos clients une expérience fluide et personnalisée grâce à un agent virtuel intelligent multilingue, capable de comprendre les demandes, traduire en temps réel et mesurer la satisfaction.",
+"kpi_impact": "80% des clients préfèrent communiquer avec un chatbot plutôt qu'avec un agent humain",
+"categorie": "IA / Automatisation / Innovation"
+},
+{
+"domaine": "Interaction Client Augmentée",
+"uc_generique": "Agent d'Appel Augmenté",
+"sous_uc": "Automatisation des appels",
+"contexte": "Besoin client",
+"description": "L'IA gère les appels simples et transfère les cas complexes aux agents humains, améliorant la résolution au premier contact et la satisfaction client.",
+"kpi_impact": "40% d'appels supplémentaires gérés sans augmenter les effectifs",
+"categorie": "IA / Automatisation"
+},
+{
+"domaine": "Interaction Client Augmentée",
+"uc_generique": "Agent de Messagerie Augmenté (Suggestions)",
+"sous_uc": "Assistance aux agents",
+"contexte": "Besoin client",
+"description": "Analyse en temps réel des conversations par messagerie et suggestions automatiques de réponses pour augmenter la productivité et la cohérence du support.",
+"kpi_impact": "+30% de demandes traitées grâce à l'assistance IA",
+"categorie": "IA / Automatisation"
+},
+{
+"domaine": "Interaction Client Augmentée",
+"uc_generique": "Superviseur Relation Client Augmenté",
+"sous_uc": "Évaluation & coaching automatique",
+"contexte": "Besoin client",
+"description": "Outil d'évaluation automatique des interactions (voix et chat) avec scoring, alertes et recommandations pour coaching continu des équipes.",
+"kpi_impact": "Permet d'évaluer 100% des interactions vs ~30% manuellement",
+"categorie": "IA / Quality / Support"
+},
+{
+"domaine": "E-commerce Intelligent",
+"uc_generique": "Catalogue Intelligent — Recherche & sizing de photos",
+"sous_uc": "Image discovery & processing",
+"contexte": "Besoin client",
+"description": "Recherche automatique d'images produits sur le web, redimensionnement et optimisation pour améliorer l'attractivité visuelle et la cohérence du catalogue.",
+"kpi_impact": "Amélioration qualité visuelle et réduction du temps de préparation catalogue",
+"categorie": "IA / Dev / Data"
+},
+{
+"domaine": "E-commerce Intelligent",
+"uc_generique": "Catalogue Intelligent — Rédaction descriptions & contenus",
+"sous_uc": "NLG pour produits et blog",
+"contexte": "Besoin client",
+"description": "Génération automatique de descriptions produits, catégories et articles SEO-friendly pour augmenter la visibilité et conversion.",
+"kpi_impact": "Augmentation du taux de conversion de ~30% (benchmarks)",
+"categorie": "IA / Marketing / Dev"
+},
+{
+"domaine": "E-commerce Intelligent",
+"uc_generique": "Catalogue Intelligent — Recherche & extraction d'informations",
+"sous_uc": "Data enrichment",
+"contexte": "Besoin client",
+"description": "Collecte et extraction automatique d'informations produits (fiches fabricants, avis, specs) pour enrichir le catalogue produit.",
+"kpi_impact": "Catalogue enrichi → meilleures conversions",
+"categorie": "Data / Dev"
+},
+{
+"domaine": "E-commerce Intelligent",
+"uc_generique": "Catalogue Intelligent — Catégorisation de produits",
+"sous_uc": "Taxonomie automatique",
+"contexte": "Besoin client",
+"description": "Classification automatique des produits en catégories et attributs pour faciliter la navigation et le filtrage sur les plateformes e-commerce.",
+"kpi_impact": "Amélioration UX et réduction des frictions de recherche",
+"categorie": "IA / Data"
+},
+{
+"domaine": "E-commerce Intelligent",
+"uc_generique": "Mise en situation d'images produits",
+"sous_uc": "Mockups automatiques",
+"contexte": "Besoin client",
+"description": "Placement automatique des visuels produits dans contextes réalistes (mockups) pour augmenter l'attractivité et la conversion.",
+"kpi_impact": "Taux de clics et conversion améliorés",
+"categorie": "IA / Marketing"
+},
+{
+"domaine": "Projet STT Malagasy",
+"uc_generique": "Voicebot PAMF x BEEPEEOO",
+"sous_uc": "Speech-to-Text",
+"contexte": "Expérimentation interne",
+"description": "Développement d'un moteur STT pour le malagasy et d'un voicebot pour PAMF, travail sur corpus audio, corrections, entraînement et gestion de la diversité dialectale.",
+"kpi_impact": "Précision et compréhension des dialectes malagasy améliorées, POC pour voicebots locaux",
+"categorie": "IA / NLP / Voice"
+},
+{
+"domaine": "Automatisation Tests",
+"uc_generique": "Guibot",
+"sous_uc": "Test automatisé d'interfaces",
+"contexte": "Projet pilote",
+"description": "Robot de test automatisé UI/UX capable de simuler parcours utilisateurs web & mobile, détecter régressions, incohérences et accélérer les cycles de QA.",
+"kpi_impact": "Réduction de ~70% du temps de test manuel, fiabilité accrue des releases",
+"categorie": "Automatisation / DevOps"
+},
+{
+"domaine": "ERP & Finance",
+"uc_generique": "Core Banking System (CiiHive)",
+"sous_uc": "ERP bancaire & déploiement microfinance",
+"contexte": "Besoin client",
+"description": "Conduite de la maîtrise d'ouvrage pour le déploiement d'un Core Banking System : sélection, adaptation locale, migration de données, tests, formation et conduite du changement.",
+"kpi_impact": "Digitalisation des opérations, réduction des erreurs, conformité améliorée",
+"categorie": "Dev / FinTech / ERP"
+},
+{
+"domaine": "Finance / Audit",
+"uc_generique": "CDR Banque Centrale",
+"sous_uc": "Évaluation compétences & structuration marchés SI",
+"contexte": "Besoin client",
+"description": "Participation à l'évaluation technique et financière pour les marchés SI liés aux exigences réglementaires, consolidation d'expérience et d'informations financières.",
+"kpi_impact": "Renforcement conformité et qualité des réponses marchés",
+"categorie": "Conseil / Finance"
+},
+{
+"domaine": "RH / Recrutement",
+"uc_generique": "CVTech & RH Bot",
+"sous_uc": "Matching CV & chatbot RH",
+"contexte": "Besoin client",
+"description": "Solution CVTech intégrée : structuration base CV, extraction infos clés, matching automated, scoring candidats et chatbot RH pour orientation et tests pré-sélection.",
+"kpi_impact": "Réduction du temps de présélection, impartialité accrue",
+"categorie": "IA / RH / Automatisation"
+},
+{
+"domaine": "Logistique / ERP",
+"uc_generique": "AI – Traitement des Bordereaux (BASAN / GAMPL)",
+"sous_uc": "OCR & intégration ERP",
+"contexte": "Besoin client",
+"description": "Automatisation du traitement des bordereaux via OCR et modèles IA, extraction champs, intégration dans ERP GAMPL et validation humaine assistée.",
+"kpi_impact": "DMT réduit de plusieurs minutes à quelques secondes par document",
+"categorie": "IA / Automatisation / ERP"
+},
+{
+"domaine": "Dev / QA",
+"uc_generique": "GuiBot (maintenance multi-projets)",
+"sous_uc": "Automatisation tests projets clients",
+"contexte": "Projets divers",
+"description": "Déploiement et adaptation de GuiBot sur plusieurs applications (GAMPL, ATAMOZ, HAIRNET, The BEST) : conception cas tests, suivi régressions et reporting de qualité.",
+"kpi_impact": "Amélioration de la couverture de tests et réduction des anomalies en production",
+"categorie": "Automatisation / QA"
+},
+{
+"domaine": "Services & Administration",
+"uc_generique": "URBADOCS - Plateforme d'intermédiation",
+"sous_uc": "Génération & livraison documents d'urbanisme",
+"contexte": "Besoin client",
+"description": "Conception et pilotage d'URBADOCS : plateforme intégrée avec Odoo, CRM, paiements (Stripe) et génération automatisée de documents d'urbanisme pour professionnels.",
+"kpi_impact": "Automatisation flux documentaires, réduction lead time et meilleure traçabilité",
+"categorie": "Dev / ERP / Automatisation"
+},
+{
+"domaine": "Interaction Client Augmentée",
+"uc_generique": "Assistant Virtuel ARO",
+"sous_uc": "Déploiement multi-plateformes",
+"contexte": "Besoin client",
+"description": "Assistant virtuel IA déployé sur plusieurs plateformes pour offrir support 24/7, résolution rapide des requêtes et délestage des équipes humaines.",
+"kpi_impact": "Amélioration SLA et réduction volume tickets",
+"categorie": "IA / Support"
+},
+{
+"domaine": "Recrutement / Sourcing IA",
+"uc_generique": "WIP IA - Recherche intelligente de candidatures",
+"sous_uc": "Scraping & NLP (Facebook + base interne)",
+"contexte": "Projet pilote",
+"description": "Solution de sourcing intelligente combinant scraping de sources publiques et recherche en langage naturel pour identifier talents pertinents rapidement.",
+"kpi_impact": "Réduction du temps de sourcing et qualité shortlist améliorée",
+"categorie": "IA / RH / Data"
+},
+{
+"domaine": "Transport / Video Analytics",
+"uc_generique": "Gestion intelligente Parkings & Flux - RAVINALA AIRPORTS",
+"sous_uc": "ANPR, comptage files, disponibilité places",
+"contexte": "Projet pilote",
+"description": "Video Analytics pour vérification disponibilité parkings, relevé plaques et comptage files d'attente afin d'optimiser la gestion des terminaux aéroportuaires.",
+"kpi_impact": "Fluidification du trafic et optimisation ressources",
+"categorie": "IA / Video Analytics"
+},
+{
+"domaine": "Produit / Plateforme IA",
+"uc_generique": "Plateforme IA transverse & task force",
+"sous_uc": "Agents génériques & modules métiers",
+"contexte": "Projets divers",
+"description": "Blueprint d'une plateforme IA centralisée capable de connecter n'importe quelle base de données, fournir chat en langage naturel, alertes, prévisions et recommandations métier.",
+"kpi_impact": "Accélération time-to-value et industrialisation des cas d'usage IA",
+"categorie": "IA / Produit / Commercialisation"
+},
+{
+"domaine": "Finance / Document Processing",
+"uc_generique": "Traitement intelligent factures & bordereaux (Arkeup Reu / INVOICE)",
+"sous_uc": "OCR, validation, RPA",
+"contexte": "Besoin client",
+"description": "Extraction et traitement automatisé des factures et documents commerciaux avec intégration ERP et workflows de validation.",
+"kpi_impact": "Réduction des coûts de traitement et amélioration de la précision",
+"categorie": "IA / Automatisation"
+},
+{
+"domaine": "BI / Analytics",
+"uc_generique": "AI BI Advisor",
+"sous_uc": "Analyse & recommandations",
+"contexte": "Besoin client",
+"description": "Assistant décisionnel IA pour centraliser données métiers, détecter anomalies, générer recommandations et alerter proactivement les équipes opérationnelles.",
+"kpi_impact": "Amélioration forecasting et correction anomalies critiques",
+"categorie": "IA / BI / Data"
+},
+{
+"domaine": "RH / Performance",
+"uc_generique": "Assistant à la gestion de la performance",
+"sous_uc": "Analyse & recommandations individuelles",
+"contexte": "Expérimentation interne",
+"description": "Outil IA qui analyse performances individuelles, identifie axes de progression et propose plans de développement personnalisés.",
+"kpi_impact": "Accroissement productivité et engagement",
+"categorie": "IA / RH"
+},
+{
+"domaine": "RH / Onboarding",
+"uc_generique": "Assistant Onboarding",
+"sous_uc": "Guidage & documentation",
+"contexte": "Besoin client",
+"description": "Assistant virtuel pour accélérer intégration des nouvelles recrues : distribution docs, orientation vers formations et suivi des étapes d'intégration.",
+"kpi_impact": "Réduction du temps d'adaptation et meilleure rétention",
+"categorie": "IA / RH"
+},
+{
+"domaine": "EduTech / Formation",
+"uc_generique": "Assistant intelligent d'enseignement (Learning Paths)",
+"sous_uc": "Recommandation formation Odoo",
+"contexte": "Expérimentation interne",
+"description": "Plateforme qui propose parcours de formation personnalisés sur Odoo selon profil et expérience, avec suivi des acquis et recommandations adaptatives.",
+"kpi_impact": "Efficacité formation améliorée et adoption accélérée",
+"categorie": "IA / EduTech"
+},
+{
+"domaine": "Support / Automatisation",
+"uc_generique": "Traitement de Mail Multi-Intention",
+"sous_uc": "Classification & workflows",
+"contexte": "Besoin client",
+"description": "Module IA qui identifie l'intention des emails entrants et déclenche automatiquement actions, tickets ou réponses standardisées.",
+"kpi_impact": "Gain productivité 20-30% et réduction erreurs",
+"categorie": "IA / Automatisation"
+},
+{
+"domaine": "Support / Quality",
+"uc_generique": "Contrôle qualité d'écoute",
+"sous_uc": "Évaluation automatique agents",
+"contexte": "Expérimentation interne",
+"description": "Solution d'évaluation automatique des appels pour mesurer la performance et détecter non-conformités, facilitant coaching et audits qualité.",
+"kpi_impact": "Amélioration continue qualité service",
+"categorie": "IA / Quality"
+},
+{
+"domaine": "Support / Assistance agents",
+"uc_generique": "Assistance & recommandation agents",
+"sous_uc": "Aide en temps réel",
+"contexte": "Besoin client",
+"description": "Outil d'aide contextuelle pour agents qui propose réponses, templates et actions à mener pendant les échanges clients.",
+"kpi_impact": "Réduction temps de traitement et homogénéisation discours",
+"categorie": "IA / Support"
+},
+{
+"domaine": "Finance / Comptabilité",
+"uc_generique": "TDI - Traitement automatisé de pièces comptables",
+"sous_uc": "Extraction & écriture comptable",
+"contexte": "Besoin client",
+"description": "Solution qui extrait données de factures, reçus et génère automatiquement écritures comptables et rapprochements.",
+"kpi_impact": "Automatisation flux comptables et réduction d'erreurs",
+"categorie": "IA / Automatisation"
+},
+{
+"domaine": "Project Office",
+"uc_generique": "Compte rendu de réunions automatisé",
+"sous_uc": "Transcription & summarization",
+"contexte": "Expérimentation interne",
+"description": "Transcription des réunions, extraction actions et génération automatique de comptes-rendus structurés avec assignation des actions.",
+"kpi_impact": "Gain de temps sur reporting et meilleure traçabilité",
+"categorie": "IA / Productivity"
+},
+{
+"domaine": "Merchandising / Retail",
+"uc_generique": "Comptage articles avec caméra",
+"sous_uc": "Shelf analytics",
+"contexte": "Expérimentation interne",
+"description": "Comptage automatique et analyse des étagères par vision pour optimiser réassort, planogramme et merchandising.",
+"kpi_impact": "Amélioration précision inventaire et réassort",
+"categorie": "IA / Computer Vision"
+},
+{
+"domaine": "Prestations intellectuelles",
+"uc_generique": "Facturation au consommé horaire",
+"sous_uc": "Tracking temps & appels",
+"contexte": "Projets divers",
+"description": "Mesure du temps passé (appels, tâches) pour facturation précise et rapprochement avec barèmes de prestations.",
+"kpi_impact": "Facturation précise et optimisation de rentabilité",
+"categorie": "Services / Ops"
+},
+{
+"domaine": "LegalTech / Conseil juridique",
+"uc_generique": "Chatbot juridique & génération de contrats",
+"sous_uc": "Statuts, contrats",
+"contexte": "Besoin client",
+"description": "Automatisation des démarches juridiques via chatbot, génération de contrats et documents légaux adaptés aux besoins clients.",
+"kpi_impact": "Réduction délais juridiques et coûts associés",
+"categorie": "IA / LegalTech"
+},
+{
+"domaine": "Geospatial / Environnement",
+"uc_generique": "Google Earth Engine — Analyse géospatiale",
+"sous_uc": "Données satellitaires & monitoring",
+"contexte": "Expérimentation interne",
+"description": "Exploitation de données satellites pour cartographies, suivi environnemental et recommandations agricoles/urbanistiques via Google Earth Engine.",
+"kpi_impact": "Décisions terrain basées sur données fiables et réduction coûts de prospection",
+"categorie": "Data / Géospatial / IA"
+},
+{
+"domaine": "Fleet Management",
+"uc_generique": "Gestion de Flotte — LastMile & Geotab",
+"sous_uc": "Télématique & optimisation routes",
+"contexte": "Besoin client",
+"description": "Solution de gestion de flotte combinant Geotab et optimisations last-mile pour réduire coûts, améliorer maintenance et performance de livraison.",
+"kpi_impact": "Réduction coûts logistiques ~15-25%, optimisation délais",
+"categorie": "IoT / Data / Innovation"
+},
+{
+"domaine": "Web & Mobile Development",
+"uc_generique": "Sites WordPress, e-commerce & applications mobiles",
+"sous_uc": "Development full-stack",
+"contexte": "Projets divers",
+"description": "Conception et développement de sites, boutiques en ligne et apps mobiles avec intégration SEO, paiement et expérience utilisateur optimisée.",
+"kpi_impact": "Augmentation trafic, conversion et satisfaction utilisateur",
+"categorie": "Dev / UX"
+},
+{
+"domaine": "Innovation & Produit",
+"uc_generique": "Projets Innovants Divers & Task Force commerciale",
+"sous_uc": "Packaging POC & commercialisation",
+"contexte": "Projets divers",
+"description": "Conduite de POC transverses (IA, voice, video analytics, agritech) et création d'une task-force pour industrialisation et commercialisation rapide.",
+"kpi_impact": "Accélération time-to-market et génération de pilotes clients",
+"categorie": "Innovation / Produit"
+},
+{
+"domaine": "BI / Data",
+"uc_generique": "Prédiction des ventes & Analyse comportementale",
+"sous_uc": "Forecasting & segmentation",
+"contexte": "Besoin client",
+"description": "Modèles prédictifs pour anticiper ventes, segmenter clients et optimiser stocks/processus opérationnels.",
+"kpi_impact": "Réduction ruptures de stock et amélioration planification commerciale",
+"categorie": "IA / ML / BI"
+},
+{
+"domaine": "Marketing Digital",
+"uc_generique": "Génération de contenu (Texte / Audio / Vidéo / Photo)",
+"sous_uc": "Content automation",
+"contexte": "Expérimentation interne",
+"description": "Production automatisée de contenus multiformats pour marketing, e-learning et communication via solutions génératives.",
+"kpi_impact": "Augmentation cadence production contenu et baisse coûts créatifs",
+"categorie": "IA / Marketing"
+},
+{
+"domaine": "Support Technique",
+"uc_generique": "Helpdesk & Support Applicatif automatisé",
+"sous_uc": "Tickets, troubleshooting & escalade",
+"contexte": "Expérimentation interne",
+"description": "Automatisation de la gestion des tickets, diagnostic automatisé des incidents applicatifs et escalade pertinente vers équipes humaines.",
+"kpi_impact": "Amélioration temps de résolution et satisfaction utilisateurs",
+"categorie": "IA / Support"
+},
+{
+"domaine": "E-commerce",
+"uc_generique": "Nouvelle expérience client — Recherche & Recommendation",
+"sous_uc": "Recherche en langage naturel",
+"contexte": "Besoin client",
+"description": "Expérience de recherche conversationnelle et recommandations personnalisées prenant en compte historique et contexte utilisateur pour optimiser discovery.",
+"kpi_impact": "Augmentation panier moyen et taux conversion",
+"categorie": "IA / E-commerce"
+},
+{
+"domaine": "E-commerce",
+"uc_generique": "Chatbot intelligent pour e-commerce",
+"sous_uc": "Assistance parcours achat",
+"contexte": "Besoin client",
+"description": "Chatbot de support produit capable de guider l'internaute, proposer produits et finaliser conversions en intégrant CRM et outils de paiement.",
+"kpi_impact": "Réduction de l'abandon panier et augmentation taux conversion",
+"categorie": "IA / Sales"
+},
+{
+"domaine": "Divers",
+"uc_generique": "Et bien plus encore",
+"sous_uc": "",
+"contexte": "Projets divers",
+"description": "Portfolio extensif incluant de nombreux autres projets liés à la Data, IA, automatisation, développement, ERP, agritech, blockchain, vidéo analytics et consulting stratégique.",
+"kpi_impact": "Impacts mesurables sur productivité, coûts et innovation pour de multiples clients",
+"categorie": "Multi / Innovation"
+}
+]

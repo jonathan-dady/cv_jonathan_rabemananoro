@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Projets Jonathan RABEMANANORO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio des Projets de Jonathan RABEMANANORO</h1>
+    </header>
+    <div class="filter-container">
+        <button class="filter-btn" data-context="all">Tous</button>
+        <button class="filter-btn" data-context="Besoin client">Besoin client</button>
+        <button class="filter-btn" data-context="Expérimentation interne">Expérimentation interne</button>
+        <button class="filter-btn" data-context="Projet pilote">Projet pilote</button>
+        <button class="filter-btn" data-context="Projets divers">Projets divers</button>
+    </div>
+    <div class="projects-container" id="projectsContainer"></div>
+    <a href="../index.html" class="back-button">← Retour au CV</a>
+
+    <script>
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('projectsContainer');
+                const renderProjects = (projects) => {
+                    container.innerHTML = '';
+                    projects.forEach(p => {
+                        container.innerHTML += `
+                <div class="project-card">
+                    <h3>${p.uc_generique}</h3>
+                    <p><strong>Domaine:</strong> ${p.domaine}</p>
+                    <p><strong>Contexte:</strong> ${p.contexte}</p>
+                    <p><strong>Description:</strong> ${p.description}</p>
+                    <p><strong>Impact/KPI:</strong> ${p.kpi_impact}</p>
+                    <p><strong>Catégorie:</strong> ${p.categorie}</p>
+                </div>
+            `;
+                    });
+                };
+                renderProjects(data);
+                const buttons = document.querySelectorAll('.filter-btn');
+                buttons.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const context = btn.getAttribute('data-context');
+                        if (context === 'all') {
+                            renderProjects(data);
+                        } else {
+                            renderProjects(data.filter(p => p.contexte === context));
+                        }
+                    });
+                });
+            });
+    </script>
+</body>
+
+</html>
